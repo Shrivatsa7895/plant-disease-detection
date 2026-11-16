@@ -1,0 +1,33 @@
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset images
+dataset/raw/
+dataset/train/
+dataset/validation/
+dataset/test/
+
+# Trained model files
+model/*.keras
+model/*.h5
+model/*.weights.h5
+
+# Generated evaluation files
+model/confusion_matrix.png
+model/classification_report.txt
+
+# macOS files
+.DS_Store
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
